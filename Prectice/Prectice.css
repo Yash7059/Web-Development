@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+.main{
+    border-radius: 7px;
+    width: 240px;
+    background-color: aliceblue;
+    margin: 25px;
+}
+img{
+    padding: 7px;
+    border-radius: 15px;
+}
+.one{
+    padding: 3px 37px 7px 6px;
+}
+.one span{
+    border: 1px solid gray;
+    padding: 3px 7px;
+    border-radius: 15px;
+    background-color: rgb(216, 221, 224);
+   font-size: 12px;
+}
+.one h1{
+    padding-top: 10px;
+}
+.one p{
+    padding: 7px;
+    font-size: 13px;
+}
+.button{
+    margin-top: 5px;
+    color: rgb(76, 76, 217);
+    margin-left: 67px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(130, 210, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 17px;
+    border: none;
+    height: 34px;
+    width: 88px;
+
+}
+

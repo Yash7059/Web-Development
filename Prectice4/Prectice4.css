@@ -1,0 +1,39 @@
+.box {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  background-color: #4CAF50;
+}
+
+.ball {
+  width: 121px;
+  height: 121px;
+  background-color: #FF5722;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: moveToBoxX 3s linear infinite, moveToBoxY 1s ease-out infinite alternate;
+}
+
+@keyframes moveToBoxX {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+
+}
+
+@keyframes moveToBoxY {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 100%;
+  }
+
+}

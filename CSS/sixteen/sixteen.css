@@ -1,0 +1,17 @@
+h1{
+    color: yellow;
+}
+.yellow{
+    color: yellow;
+}
+.cred{
+    color: red;
+}
+.cpurple{
+    color: purple;
+}
+
+/* attribute selector */
+/* [data-x=a]{
+    background-color: red;
+} */
