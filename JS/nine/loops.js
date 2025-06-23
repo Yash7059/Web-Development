@@ -23,6 +23,6 @@ let arr = [1,2,5,6,8,9,5]
 //     }
 // }
 
-for (const value of arr) {
-    console.log(value)
-}
+// for (const value of arr) {
+//     console.log(value)
+// }
